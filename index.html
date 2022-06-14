@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <span>sunny_snowing</span>
+        <h1>Current Weather</h1>
+        <input
+          type="text"
+          id="search"
+          placeholder="Seach location here"
+          value="harare"
+        />
+        <div class="nav-buttons">
+          <button>search</button>
+          <button id="convert">Convert to °F</button>
+        </div>
+      </div>
+      <div class="weather">
+        <div class="summary">
+          <img id="img" />
+          <div class="details">
+            <p id="location">Harare</p>
+            <h3 id="description">Clear Sky</h3>
+          </div>
+          <div class="temperature">
+            <p>Temperature</p>
+            <h4 id="temp">27°C</h4>
+          </div>
+        </div>
+        <div class="summary card">
+          <span>air</span>
+          <div class="details">
+            <p>Wind speed</p>
+            <h3 id="wind">12km/h</h3>
+          </div>
+        </div>
+        <div class="summary card">
+          <span>water</span>
+          <div class="details">
+            <p>Pressure</p>
+            <h3 id="pressure">720hPa</h3>
+          </div>
+        </div>
+        <div class="summary card">
+          <span>opacity</span>
+          <div class="details">
+            <p>Humidity</p>
+            <h3 id="Humidity">12%</h3>
+          </div>
+        </div>
+        <div class="summary card">
+          <span>visibility</span>
+          <div class="details">
+            <p>Visibility</p>
+            <h3 id="visibility">720km</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
