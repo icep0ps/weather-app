@@ -25,6 +25,7 @@ async function getWeather() {
 }
 
 let kelvinTemp = undefined;
+
 function displayWeather(weather) {
   city.innerText = weather.name;
   description.innerText = weather.weather[0].description;

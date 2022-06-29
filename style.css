@@ -53,6 +53,7 @@ span {
 }
 
 button {
+  font-family: 'Poppins', sans-serif;
   margin-top: 20px;
   padding: 15px;
   border-radius: 10px;
@@ -73,6 +74,7 @@ button {
 }
 
 input {
+  font-family: 'Poppins', sans-serif;
   border: none;
   outline: none;
   border-radius: 10px;
@@ -106,4 +108,9 @@ input {
 
 .details > h3 {
   font-size: 2rem;
+}
+
+button:hover {
+  color: white;
+  background-color: #0a2239;
 }
